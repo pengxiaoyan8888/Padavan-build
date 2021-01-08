@@ -38,9 +38,9 @@ jobs:
         mkdir -p /opt/images/
     - name: Build Firmware
       env:
-        TNAME: K2P-5.0
-      run: |
-        cd /opt/rt-n56u/trunk
+        姓名：PSG1218
+    运行：
+        cd / opt / rt-n56u / trunk
         if [ ! -f configs/templates/$TNAME.config ] ; then
         echo "configs/templates/$TNAME.config not found "
         exit 1
